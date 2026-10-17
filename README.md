@@ -1,49 +1,36 @@
-﻿# StoreQuest — Official Privacy Policy
+﻿# StoreQuest — Official Google Play Store Assets & Privacy Policy
 
-This repository hosts the official **Privacy Policy** for the **StoreQuest** Android game, compliant with Google Play Developer policies, COPPA, and GDPR.
+Official store listing assets and **Privacy Policy** for the **StoreQuest** Android game, compliant with Google Play Developer Policies, COPPA, and GDPR.
 
 - **Application Name:** StoreQuest
-- **Package ID:** `com.storequest.trgovina`
+- **Package ID:** com.storequest.trgovina
 - **Developer:** Damir Žiher ([dziher11](https://github.com/dziher11))
 - **Contact:** damir.ziher@gmail.com
 
 ---
 
+## 🎨 Google Play Store Graphics (Ready for Upload)
+
+| Asset Type | Specifications | Preview / File Link |
+|---|---|---|
+| **App Icon** | **512 × 512 px**, 32-bit PNG, Full-bleed (No squircle / drop-shadow) | [google_play_icon_512x512.png](google_play_icon_512x512.png) |
+| **Feature Graphic (Banner)** | **1024 × 500 px**, JPG / 24-bit PNG, No alpha | [google_play_feature_graphic_1024x500.jpg](google_play_feature_graphic_1024x500.jpg) \| [PNG](google_play_feature_graphic_1024x500.png) |
+
+---
+
 ## 🌐 Public Privacy Policy URL (For Google Play Console)
 
-Once GitHub Pages is enabled on this repository:
 - **Main URL:** [https://dziher11.github.io/StoreQuest/](https://dziher11.github.io/StoreQuest/)
 - **Direct HTML URL:** [https://dziher11.github.io/StoreQuest/privacy-policy.html](https://dziher11.github.io/StoreQuest/privacy-policy.html)
 
 ---
 
-## ⚙️ How to Enable GitHub Pages (1-Minute Setup)
+## 📁 Google Play Translations (19 World Languages)
 
-If you haven't enabled GitHub Pages yet:
-1. Open this repository on GitHub: [https://github.com/dziher11/StoreQuest](https://github.com/dziher11/StoreQuest)
-2. Click **Settings** (top right tab).
-3. In the left navigation menu, click **Pages** (under "Code and automation").
-4. Under **Build and deployment**:
-   - **Source:** Select `Deploy from a branch`
-   - **Branch:** Select `main` and folder `/ (root)`
-5. Click **Save**.
-6. Within 1-2 minutes, GitHub will publish your site at:  
-   👉 **`https://dziher11.github.io/StoreQuest/`**
-
----
-
-## 🛡️ Privacy Highlights
-
-| Feature | Status |
-|---|---|
-| **Personal Data Collected** | **None (Zero Data)** |
-| **Network & Offline** | **100% Offline Gameplay** |
-| **Save Data** | **Stored locally on user's device (`user://`)** |
-| **Third-Party Analytics** | **None (No Firebase, No Google Analytics)** |
-| **Advertisements** | **None (No AdMob, No Ads)** |
-| **Sensitive Permissions** | **None (No Camera, Mic, GPS, Contacts)** |
-| **Children's Policy** | **COPPA & Google Play Families Compliant** |
-| **Supported Languages** | **English & Croatian (Bilingual Toggle)** |
+- [google_play_translations_all.csv](google_play_translations_all.csv) — Complete CSV table covering 19 major world languages.
+- [google_play_source_strings.csv](google_play_source_strings.csv) — 2-column source CSV for Google Play AI Translation Service.
+- [google_play_translations.json](google_play_translations.json) — Full JSON data.
+- [google_play_metadata.md](google_play_metadata.md) — Ready-to-copy text formatted by language.
 
 ---
 
