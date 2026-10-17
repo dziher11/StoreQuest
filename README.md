@@ -1,9 +1,9 @@
-﻿# StoreQuest — Official Google Play Store Assets & Privacy Policy
+# StoreQuest — Official Google Play Store Assets & Privacy Policy
 
 Official store listing assets and **Privacy Policy** for the **StoreQuest** Android game, compliant with Google Play Developer Policies, COPPA, and GDPR.
 
 - **Application Name:** StoreQuest
-- **Package ID:** com.storequest.trgovina
+- **Package ID:** com.mouse.storequest
 - **Developer:** Damir Žiher ([dziher11](https://github.com/dziher11))
 - **Contact:** damir.ziher@gmail.com
 
