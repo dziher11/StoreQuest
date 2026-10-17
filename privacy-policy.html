@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoreQuest - Privacy Policy | Pravila Privatnosti</title>
+    <meta name="description" content="Official Privacy Policy for StoreQuest Android game (com.storequest.trgovina). 100% offline, zero personal data collected.">
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-light: #dbeafe;
+            --accent: #10b981;
+            --accent-light: #d1fae5;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --radius: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding-bottom: 60px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 48px 20px 40px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .lang-switch-container {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+            padding: 4px;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 6px 14px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active {
+            background: white;
+            color: #1e3a8a;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .app-icon {
+            width: 84px;
+            height: 84px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+            margin-bottom: 16px;
+            background: white;
+            display: inline-block;
+            vertical-align: middle;
+            border: 3px solid rgba(255,255,255,0.8);
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 17px;
+            opacity: 0.9;
+            margin-bottom: 18px;
+        }
+
+        .meta-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            backdrop-filter: blur(4px);
+        }
+
+        .badge.highlight {
+            background: #10b981;
+            color: white;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 840px;
+            margin: -24px auto 0;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 36px 32px;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border);
+            margin-bottom: 24px;
+        }
+
+        .quick-summary {
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .quick-summary h3 {
+            color: #065f46;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+        }
+
+        .quick-summary ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .quick-summary li {
+            padding: 6px 0;
+            color: #047857;
+            font-size: 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .quick-summary li::before {
+            content: "✓";
+            font-weight: bold;
+            color: #059669;
+        }
+
+        .section {
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: var(--text-main);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: -0.3px;
+        }
+
+        h2 .section-num {
+            background: var(--primary-light);
+            color: var(--primary-dark);
+            width: 32px;
+            height: 32px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: #334155;
+            font-size: 15.5px;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+            color: #334155;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .highlight-box {
+            background: #eff6ff;
+            border-left: 4px solid var(--primary);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 15px;
+            color: #1e40af;
+        }
+
+        .contact-card {
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 16px;
+            border: 1px solid var(--border);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-top: 32px;
+        }
+
+        @media (max-width: 640px) {
+            header {
+                padding: 40px 16px 36px;
+            }
+            .lang-switch-container {
+                position: static;
+                margin: 0 auto 20px;
+                display: inline-flex;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            .card {
+                padding: 24px 18px;
+            }
+            h2 {
+                font-size: 19px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="lang-switch-container">
+        <button class="lang-btn active" id="btn-en" onclick="setLanguage('en')">🇬🇧 English</button>
+        <button class="lang-btn" id="btn-hr" onclick="setLanguage('hr')">🇭🇷 Hrvatski</button>
+    </div>
+
+    <div class="header-content">
+        <img src="icon.png" alt="StoreQuest Icon" class="app-icon" onerror="this.style.display='none'">
+        <h1>StoreQuest</h1>
+        <p class="subtitle" id="hdr-sub">Privacy Policy | Pravila Privatnosti</p>
+        
+        <div class="meta-tags">
+            <span class="badge highlight">✓ Zero Data Collected</span>
+            <span class="badge">🔌 100% Offline</span>
+            <span class="badge">👶 Family & COPPA Compliant</span>
+            <span class="badge">📦 Package: com.storequest.trgovina</span>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="card">
+
+        <!-- ENGLISH VERSION -->
+        <div id="lang-en" class="content-lang">
+            <div class="quick-summary">
+                <h3>🛡️ Summary for Players & Google Play</h3>
+                <ul>
+                    <li><strong>No Personal Information:</strong> StoreQuest does not collect, record, or transmit any personal data.</li>
+                    <li><strong>No Tracking or Analytics:</strong> We do not use advertising identifiers, analytics SDKs, or tracking cookies.</li>
+                    <li><strong>100% Offline & Local:</strong> Game progress, coins, inventory, and settings are saved strictly on your device.</li>
+                    <li><strong>No Sensitive Permissions:</strong> No access required for location, camera, microphone, contacts, or storage.</li>
+                    <li><strong>Child & Family Friendly:</strong> Fully compliant with COPPA and Google Play Families policy.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">1</span> Introduction & Overview</h2>
+                <p>Welcome to <strong>StoreQuest</strong>, a single-player store management and supermarket simulation game created by developer <strong>Damir Žiher</strong> ("we", "us", or "our").</p>
+                <p>We respect your privacy and are committed to protecting it. This Privacy Policy informs you about how StoreQuest operates regarding information when you install and play the game on your Android device.</p>
+                <div class="highlight-box">
+                    <strong>Key Commitment:</strong> StoreQuest is designed with a "privacy-by-design" principle. The game runs entirely offline on your device and does not collect or transmit any user data.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">2</span> Information We Collect (None)</h2>
+                <p>StoreQuest <strong>does NOT collect, store, transmit, or share</strong> any personal data or personally identifiable information (PII). Specifically, we do NOT collect:</p>
+                <ul>
+                    <li>Names, email addresses, phone numbers, or physical addresses.</li>
+                    <li>Account credentials, passwords, or authentication tokens.</li>
+                    <li>Financial, credit card, or payment transaction information.</li>
+                    <li>Precise or approximate geographic location.</li>
+                    <li>Device identifiers (such as IMEI, Android ID, MAC address, Advertising ID / GAID).</li>
+                    <li>Usage statistics, browsing history, or in-game behavior analytics.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">3</span> Local Storage & Save Data</h2>
+                <p>StoreQuest saves game progress strictly locally on your device in the application's isolated sandbox storage directory (<code>user://savegame.json</code> and <code>user://settings.json</code>). This local data includes:</p>
+                <ul>
+                    <li><strong>Gameplay state:</strong> Current day, store cash balance, store level, customer happiness, and quest status.</li>
+                    <li><strong>Store inventory:</strong> Stock counts, display shelf assignments, and product pricing.</li>
+                    <li><strong>Upgrades:</strong> Purchased shop expansions, equipment, and shelves.</li>
+                    <li><strong>Preferences:</strong> Sound effects (SFX) volume, background music volume, and selected language (Croatian, English, German, Spanish, Portuguese, French, Turkish, Italian, Polish).</li>
+                </ul>
+                <p>This save data never leaves your device and is never synchronized to or stored on any external server or cloud service.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">4</span> Third-Party Services & Advertising</h2>
+                <p>StoreQuest does not integrate or communicate with any third-party services:</p>
+                <ul>
+                    <li><strong>No Advertisements:</strong> The game does not display ads and contains no ad networks (e.g., Google AdMob, Unity Ads).</li>
+                    <li><strong>No Analytics SDKs:</strong> No analytics tools (e.g., Google Analytics for Firebase, GameAnalytics, Flurry) are embedded.</li>
+                    <li><strong>No Social Media Plugins:</strong> There are no social network SDKs or sharing widgets.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">5</span> Device Permissions</h2>
+                <p>StoreQuest does not require or request any sensitive runtime permissions. It does not ask for access to:</p>
+                <ul>
+                    <li>Camera or Microphone</li>
+                    <li>GPS Location (Coarse or Fine)</li>
+                    <li>Contacts, Phone State, or SMS</li>
+                    <li>External Storage, Photos, or Media Libraries</li>
+                </ul>
+                <p>The game requires only standard Android system features needed for standard graphic rendering and audio playback.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">6</span> Children's Privacy (COPPA & Families Policy)</h2>
+                <p>StoreQuest is a fun, non-violent, family-friendly simulation game intended for audiences of all ages (PEGI 3 / ESRB Everyone).</p>
+                <p>We strictly comply with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>, the EU General Data Protection Regulation regarding children (<strong>GDPR-K</strong>), and <strong>Google Play's Families Policy</strong>:</p>
+                <ul>
+                    <li>We do not knowingly collect or request personal information from children under the age of 13 (or 16 in the European Economic Area).</li>
+                    <li>Because the game collects no personal data whatsoever from any player, children's data is never collected, stored, or distributed.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">7</span> Data Retention & Deletion</h2>
+                <p>Because all save data is stored solely on your device, you have complete control over it. You can permanently delete your data at any time by:</p>
+                <ul>
+                    <li>Using the <strong>"🗑️ Delete Save / Obriši Save"</strong> button directly inside the game's Settings menu.</li>
+                    <li>Clearing application storage in Android: <em>Settings &rarr; Apps &rarr; StoreQuest &rarr; Storage &rarr; Clear Data / Clear Storage</em>.</li>
+                    <li>Uninstalling the game from your device, which automatically removes all associated files.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">8</span> International Regulations (GDPR & CCPA)</h2>
+                <p>StoreQuest complies with global privacy regulations, including the European Union <strong>General Data Protection Regulation (GDPR)</strong> and the <strong>California Consumer Privacy Act (CCPA / CPRA)</strong>.</p>
+                <p>Since we do not collect, process, or sell any personal data, there is no personal data subject to disclosure, rectification, portability, or sale.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">9</span> Changes to This Privacy Policy</h2>
+                <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Effective Date". We encourage you to review this page periodically.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">10</span> Contact Information</h2>
+                <p>If you have any questions or feedback regarding this Privacy Policy or StoreQuest, please feel free to reach out:</p>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <strong>Developer:</strong> Damir Žiher (dziher11)
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong> <a href="mailto:damir.ziher@gmail.com">damir.ziher@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>GitHub Repository:</strong> <a href="https://github.com/dziher11/StoreQuest" target="_blank" rel="noopener">https://github.com/dziher11/StoreQuest</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Application ID:</strong> <code>com.storequest.trgovina</code>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Effective Date:</strong> October 17, 2026
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CROATIAN VERSION -->
+        <div id="lang-hr" class="content-lang" style="display: none;">
+            <div class="quick-summary">
+                <h3>🛡️ Sažetak za igrače i Google Play</h3>
+                <ul>
+                    <li><strong>Bez osobnih podataka:</strong> StoreQuest ne prikuplja, ne bilježi i ne šalje nikakve osobne podatke.</li>
+                    <li><strong>Bez praćenja i analitike:</strong> Ne koristimo oglašivačke identifikatore, analitičke SDK-ove niti kolačiće.</li>
+                    <li><strong>100% Izvanmrežno (Offline):</strong> Napredak u igri, novac, zalihe i postavke spremaju se isključivo lokalno na vaš uređaj.</li>
+                    <li><strong>Bez osjetljivih dozvola:</strong> Nije potreban pristup lokaciji, kameri, mikrofonu, kontaktima niti pohrani.</li>
+                    <li><strong>Sigurno za djecu i obitelj:</strong> U potpunosti usklađeno s COPPA propisima i Google Play Families pravilima.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">1</span> Uvod i pregled</h2>
+                <p>Dobrodošli u igru <strong>StoreQuest</strong>, simulaciju upravljanja trgovinom i supermarketom koju je razvio <strong>Damir Žiher</strong> ("mi", "nas" ili "naš").</p>
+                <p>Iznimno cijenimo vašu privatnost i predani smo njenoj zaštiti. Ova Pravila privatnosti objašnjavaju način na koji StoreQuest postupa s informacijama prilikom instalacije i igranja igre na vašem Android uređaju.</p>
+                <div class="highlight-box">
+                    <strong>Ključno obećanje:</strong> StoreQuest je izrađen prema načelu "privatnosti po dizajnu" (privacy-by-design). Igra radi 100% izvanmrežno (offline) i ne prikuplja niti prenosi nikakve podatke o korisnicima.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">2</span> Informacije koje prikupljamo (Nema prikupljanja)</h2>
+                <p>StoreQuest <strong>NE prikuplja, ne pohranjuje, ne prenosi i ne dijeli</strong> nikakve osobne podatke niti podatke koji mogu identificirati pojedinca. Konkretno, NE prikupljamo:</p>
+                <ul>
+                    <li>Imena, e-mail adrese, telefonske brojeve ili adrese stanovanja.</li>
+                    <li>Korisničke račune, lozinke ili autentifikacijske tokene.</li>
+                    <li>Financijske podatke, podatke o kreditnim karticama ili plaćanjima.</li>
+                    <li>Geografsku lokaciju (ni preciznu ni približnu).</li>
+                    <li>Identifikatore uređaja (kao što su IMEI, Android ID, MAC adresa, Advertising ID / GAID).</li>
+                    <li>Statistike korištenja, povijest pregledavanja ili analitiku ponašanja u igri.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">3</span> Lokalna pohrana i spremanje igre</h2>
+                <p>StoreQuest sprema napredak u igri isključivo lokalno na vašem uređaju unutar izoliranog direktorija aplikacije (<code>user://savegame.json</code> i <code>user://settings.json</code>). Ovi lokalni podaci uključuju:</p>
+                <ul>
+                    <li><strong>Stanje igre:</strong> Trenutni radni dan, stanje novca u blagajni, razinu trgovine, zadovoljstvo kupaca i zadatke.</li>
+                    <li><strong>Zalihe trgovine:</strong> Količinu robe u skladištu, raspored artikala na policama i postavljene prodajne cijene.</li>
+                    <li><strong>Nadogradnje:</strong> Kupljena proširenja trgovine, opremu i police.</li>
+                    <li><strong>Postavke:</strong> Glasnoću zvučnih efekata (SFX), glasnoću glazbe i odabrani jezik sučelja (hrvatski, engleski, njemački, španjolski, portugalski, francuski, turski, talijanski, poljski).</li>
+                </ul>
+                <p>Ovi podaci nikada ne napuštaju vaš uređaj i nikada se ne sinkroniziraju s vanjskim poslužiteljima ili uslugama u oblaku.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">4</span> Usluge trećih strana i oglašavanje</h2>
+                <p>StoreQuest ne sadrži niti komunicira s bilo kojim vanjskim servisima:</p>
+                <ul>
+                    <li><strong>Bez oglasa:</strong> Igra ne prikazuje oglase i ne sadrži oglašivačke mreže (npr. Google AdMob, Unity Ads).</li>
+                    <li><strong>Bez analitike:</strong> Ne koristimo analitičke alate (npr. Google Analytics for Firebase, GameAnalytics, Flurry).</li>
+                    <li><strong>Bez društvenih mreža:</strong> Nema integracija s društvenim mrežama ili dodataka za dijeljenje.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">5</span> Dozvole na uređaju (Permissions)</h2>
+                <p>StoreQuest ne traži niti zahtijeva bilo kakve osjetljive Android dozvole u stvarnom vremenu. Ne traži pristup:</p>
+                <ul>
+                    <li>Kameri ili mikrofonu</li>
+                    <li>GPS lokaciji</li>
+                    <li>Imeniku, kontaktima ili SMS porukama</li>
+                    <li>Vanjskoj pohrani, fotografijama ili medijskim datotekama</li>
+                </ul>
+                <p>Igra koristi isključivo standardne sistemske funkcije Androida potrebne za grafički prikaz i reprodukciju zvuka.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">6</span> Privatnost djece (COPPA i Google Play Families pravila)</h2>
+                <p>StoreQuest je zabavna i nenasilna igra prilagođena svim uzrastima (oznaka PEGI 3 / ESRB Everyone).</p>
+                <p>U potpunosti poštujemo propise <strong>COPPA</strong> (Zakon o zaštiti privatnosti djece na internetu), europsku <strong>GDPR-K</strong> uredbu i <strong>Google Play Families pravila</strong>:</p>
+                <ul>
+                    <li>Svjesno ne prikupljamo niti tražimo osobne podatke od djece mlađe od 13 godina (odnosno mlađe od 16 u Europskom gospodarskom prostoru).</li>
+                    <li>Budući da igra ne prikuplja nikakve osobne podatke ni od jednog korisnika, podaci o djeci se nikada ne bilježe, ne pohranjuju niti dijele.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">7</span> Zadržavanje i brisanje podataka</h2>
+                <p>Budući da se svi podaci nalaze isključivo na vašem telefonu ili tabletu, imate potpunu kontrolu nad njima. Podatke možete trajno obrisati u bilo kojem trenutku:</p>
+                <ul>
+                    <li>Pritiskom na gumb <strong>"🗑️ Obriši Save"</strong> unutar izbornika Postavke u samoj igri.</li>
+                    <li>Brisanjem podataka aplikacije u postavkama telefona: <em>Postavke &rarr; Aplikacije &rarr; StoreQuest &rarr; Pohrana &rarr; Obriši podatke</em>.</li>
+                    <li>Deinstalacijom igre s vašeg uređaja, čime se automatski uklanjaju sve lokalne datoteke.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">8</span> Međunarodna prava na privatnost (GDPR i CCPA)</h2>
+                <p>StoreQuest poštuje prava korisnika prema Općoj uredbi o zaštiti podataka (GDPR) u EU-u te kalifornijskom zakonu o zaštiti privatnosti potrošača (CCPA / CPRA).</p>
+                <p>S obzirom na to da ne prikupljamo, ne obrađujemo i ne prodajemo nikakve osobne podatke, ne postoje podaci koji bi bili predmet uvida, ispravka, prijenosa ili prodaje trećim stranama.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">9</span> Izmjene ovih Pravila privatnosti</h2>
+                <p>Zadržavamo pravo povremenog ažuriranja ovih Pravila privatnosti radi usklađivanja s novim značajkama igre ili zakonskim propisima. Sve promjene bit će objavljene na ovoj stranici uz ažurirani datum stupanja na snagu.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="section-num">10</span> Kontakt podaci</h2>
+                <p>Za sva pitanja, prijedloge ili pojašnjenja u vezi s ovim Pravilima privatnosti slobodno nas kontaktirajte:</p>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <strong>Razvojni programer:</strong> Damir Žiher (dziher11)
+                    </div>
+                    <div class="contact-item">
+                        <strong>E-mail:</strong> <a href="mailto:damir.ziher@gmail.com">damir.ziher@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>GitHub repozitorij:</strong> <a href="https://github.com/dziher11/StoreQuest" target="_blank" rel="noopener">https://github.com/dziher11/StoreQuest</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Identifikator aplikacije:</strong> <code>com.storequest.trgovina</code>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Datum stupanja na snagu:</strong> 17. listopada 2026.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 StoreQuest &bull; Damir Žiher (dziher11). All rights reserved.</p>
+</footer>
+
+<script>
+    function setLanguage(lang) {
+        const enContent = document.getElementById('lang-en');
+        const hrContent = document.getElementById('lang-hr');
+        const btnEn = document.getElementById('btn-en');
+        const btnHr = document.getElementById('btn-hr');
+        const hdrSub = document.getElementById('hdr-sub');
+
+        if (lang === 'hr') {
+            enContent.style.display = 'none';
+            hrContent.style.display = 'block';
+            btnHr.classList.add('active');
+            btnEn.classList.remove('active');
+            hdrSub.textContent = 'Pravila Privatnosti (Privacy Policy)';
+            document.documentElement.lang = 'hr';
+        } else {
+            enContent.style.display = 'block';
+            hrContent.style.display = 'none';
+            btnEn.classList.add('active');
+            btnHr.classList.remove('active');
+            hdrSub.textContent = 'Privacy Policy | Pravila Privatnosti';
+            document.documentElement.lang = 'en';
+        }
+    }
+
+    // Auto-detect browser language
+    (function() {
+        const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+        if (userLang.startsWith('hr') || userLang.startsWith('bs') || userLang.startsWith('sr')) {
+            setLanguage('hr');
+        } else {
+            setLanguage('en');
+        }
+    })();
+</script>
+
+</body>
+</html>
